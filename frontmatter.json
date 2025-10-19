@@ -1,0 +1,54 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "astro",
+  "frontMatter.preview.host": "http://localhost:4321",
+  "frontMatter.content.publicFolder": {
+    "path": "src/assets",
+    "relative": true
+  },
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "articles",
+      "path": "[[workspace]]/src/content/articles",
+      "contentTypes": [
+        "articles"
+      ]
+    },
+    {
+      "title": "reference",
+      "path": "[[workspace]]/src/content/reference",
+      "contentTypes": [
+        "reference"
+      ]
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "articles",
+      "previewPath": "'articles'",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": []
+    },
+    {
+      "name": "reference",
+      "previewPath": "'reference'",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": []
+    },
+    {
+      "name": "spreadsheets",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": []
+    },
+    {
+      "name": "whitepapers",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": []
+    }
+  ],
+  "frontMatter.git.enabled": true
+}
